@@ -57,3 +57,22 @@
     background-color: #3882F6;
     border-radius: 6px;
 }
+
+/* info section */
+.info-section h2 {
+    text-align: center;
+    padding: 18px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0px 200px 20px;
+}
+.box{
+    flex: 1;
+    text-align: center;
+}
