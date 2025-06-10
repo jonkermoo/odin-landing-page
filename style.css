@@ -95,3 +95,25 @@
 .info-section{
     padding-bottom: 50px;
 }
+
+/* quote section */
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+.quote-author{
+    width: 10%;
+    text-align: right;
+}
