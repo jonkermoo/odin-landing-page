@@ -49,6 +49,11 @@
 .intro-image{
     text-align: end;
 }
+.intro-image img{
+    height: 200px;
+    width: 450px;
+    object-fit: cover;
+}
 .intro button{
     margin-top: 10px;
     border: none;
