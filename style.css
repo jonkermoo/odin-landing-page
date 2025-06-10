@@ -151,3 +151,14 @@
     padding: 4px 24px;
     border-radius: 6px;
 }
+
+/* copyright footnote */
+.copyright{
+    background-color: #1F2937;
+    padding: 14px;
+}
+.copyright p{
+    font-size: 12px;
+    color: #E5E7EB;
+    text-align: center;
+}
