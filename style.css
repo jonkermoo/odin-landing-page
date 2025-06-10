@@ -5,13 +5,15 @@
     box-sizing: border-box;
 }
 
+/* header */
 .header {
     background-color: #1F2937;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 10%;
+    box-sizing: border-box;
 }
 .logo {
     font-size: 24px;
@@ -21,4 +23,37 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-} 
+}
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 40px 10%;
+}
+.intro-text, .intro-image{
+    flex: 1;
+}
+.intro-text h1{
+    color: #F9FAF8;
+    font-size: 48px;
+}
+.intro-text p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.intro-image{
+    text-align: end;
+}
+.intro button{
+    margin-top: 10px;
+    border: none;
+    padding: 5px 25px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
